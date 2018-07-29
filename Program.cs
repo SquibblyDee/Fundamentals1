@@ -65,7 +65,7 @@ namespace Fundamentals1
             Random rand = new Random();
             for(int i=0; i<10; i++)
             {   
-                int randNumber = rand.Next(1,255);
+                int randNumber = rand.Next(0,256);
                 if(randNumber%3==0 && randNumber%5==0)
                 {
                     Console.WriteLine("FizzBuzz");
